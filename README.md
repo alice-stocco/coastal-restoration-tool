@@ -6,7 +6,7 @@ The application is based on Shiny and is available at: https://ecological.shinya
 
 ## How to run the app on your computer
 ### Step 1: Download the script and the data
-To run the app locally, contribute to the development of future versions, and update the database, you can download the files from this repository.
+To run the app locally, contribute to the development of future versions, and update the database, you can download the folder /tool from this repository to get the files.
 Alternatively, you can clone this repository with the following command:
 ```bash
 git clone https://github.com/your-username/coastal_restoration_tool.git
