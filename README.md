@@ -1,6 +1,9 @@
 # Coastal Restoration Tool
 
 This repository contains the files needed to run an interactive tool that supports the decision-making process when evaluating suitable ecological restoration techniques for coastal areas and wetlands along the river-to-sea continuum.  
+Data were collected for the scientific work "Evaluating Nature-Based Adaptation Techniques in Human Dominated Coastal Continuums" by Horneman F., Stocco A., et al. (under review, to be updated soon).
+If you consult the app, use the files or the data, please cite the paper:
+(citation to be added after publication)
 
 The application is based on Shiny and is available at: https://ecological.shinyapps.io/coastal_restoration_tool/ .
 
