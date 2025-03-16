@@ -1,42 +1,25 @@
 # Coastal Restoration Tool
 
-This repository hosts the files needed to run an interactive tool that supports the decision-making process in selecting suitable ecological restoration techniques for coastal areas and wetlands along the river-to-sea continuum.  
+This repository contains the files needed to run an interactive tool that supports the decision-making process when evaluating suitable ecological restoration techniques for coastal areas and wetlands along the river-to-sea continuum.  
 
 The application is based on Shiny and is available at: https://ecological.shinyapps.io/coastal_restoration_tool/ .
 
-## Get the data and run the app on your computer
-To run the app locally, contribute to the development of future versions, and update the database, you can get in touch with the author writing at alice.stocco@unive.it and download the files from this repository.
-
+## How to run the app on your computer
+### Step 1: Download the script and the data
+To run the app locally, contribute to the development of future versions, and update the database, you can download the files from this repository.
 Alternatively, you can clone this repository with the following command:
 ```bash
 git clone https://github.com/your-username/coastal_restoration_tool.git
 ```
+After downloading or cloning, you will have a folder called tool that contains the following files:
+    app.R: The main Shiny app script
+    restoration_tool_dataset.xlsx: The database file
 
-## Requirements 
-
-```R
-    R (version 4.3.3 or later)
-    Shiny
-    Other R packages as specified in the app.R file
-```
-
-## Installation
-
-Open R in your favourite environment (see https://www.r-project.org/ for further details).
-
-Install the required R packages:
-
-```R
- install.packages(c("shiny", "dplyr", "DT", "ggplot2", "fmsb", "readxl"))
-```
-
-## Launch the app:
-You can either open the script app.R and run the code,
- or
-run the command:
-```R
-shiny::runApp("/path/to/coastal_restoration_tool/app") # change with your path
-```
+## Step 2: Open R and run the script
+Make sure you have R installed (you can download it from [here](https://www.r-project.org/)).
+Once the files are downloaded and the packages are installed, open the app.R file and run the script.
+Read carefully the script and follow the instruction. Remember to replace the with your actual path to the folder /tool.
+The app will launch in your default web browser.
 
 ## Database Updates
 
