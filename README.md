@@ -5,7 +5,7 @@ Data were collected for the scientific work "Evaluating Nature-Based Adaptation 
 If you consult the app, use the files or the data, please cite the paper:
 (citation to be added after publication)
 
-The application is based on Shiny and is available at: https://ecological.shinyapps.io/coastal_restoration_tool/ .
+The application is based on Shiny and its graphical interface is also available on shinyapps.io.
 
 ## How to run the app on your computer
 ### Step 1: Download the script and the data
@@ -24,9 +24,19 @@ Once the files are downloaded and the packages are installed, open the app.R fil
 Read carefully the script and follow the instruction. Remember to replace the with your actual path to the folder /tool.
 The app will launch in your default web browser.
 
-## Database Updates
+## Step 3: Use the tool
+Once the app is running, this interactive window will appear:
+![image](https://github.com/user-attachments/assets/9271e0f1-58a5-4055-be1b-2ce911288241)
+By clicking on the upper left panel, a dropdown menu will appear. 
+![image](https://github.com/user-attachments/assets/59f3cda1-48ea-498b-b245-62290454483f)
+Click on the pressure you want to select (e.g. erosion risk): a series of restoration techniques among those assessed by the experts participating in the project will appear on the right side of the interface.
+![image](https://github.com/user-attachments/assets/993bef8e-bd52-4ee8-b8aa-3cc2610a1fe6)
+When one technique is selected, the agreement level among experts on the effectiveness of such technique to address the selected pressure is shown on the left, while the radarcharts show the scores for both the structural features of the technique and the natural processes that are supported by it:
+![image](https://github.com/user-attachments/assets/7cacb2d7-a42e-4eab-a979-5eb11ec053d6)
 
-The database (restoration_tool_dataset.xlsx) is located in the /tool folder. To update the data, contact alice.stocco@unive.it . 
+
+## Database Updates
+The database with the techniques and the scores (restoration_tool_dataset.xlsx) is located in the /tool folder. Any researcher in the field is very welcome to contribute for updating the databse with new techniques and scores: if you are willing to contribute, please contact alice.stocco@unive.it . 
 
 ## License
 
